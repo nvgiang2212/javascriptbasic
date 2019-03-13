@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Phiếu đăng ký tham gia chương trình khuyến mãi</title>
+	<style>
+		table, td {
+			border: 1px solid black;
+			border-collapse: collapse;
+			background-color: #99FF66;
+			color: #009900;
+		}
+		p {
+			color: #009900;
+			font-size: 30px;
+			font-weight: bold;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<p>Phiếu đăng ký tham gia chương trình khuyến mãi</p>
+	<table align="center" cellpadding="8" cellspacing="3">
+		<thead>
+			<tr>
+				<td>Họ và tên</td>
+				<td width="60%"><input type="text" placeholder="User Name" size="35"></td>
+			</tr>
+			<tr>
+				<td>Địa chỉ</td>
+				<td><input type="text" placeholder="Address" size="27"></td>
+			</tr>
+			<tr>
+				<td>Điện thoại</td>
+				<td><input type="text" placeholder="Phone Number" width="30px"></td>
+			</tr>
+			<tr>
+				<td>Phái</td>
+				<td>
+					<input type="radio" name="sex" value="Nam">Nam
+					<input type="radio" name="sex" value="Nữ">Nữ
+				</td>
+			</tr>
+			<tr>
+				<td>Nghề nghiệp</td>
+				<td>
+					<select name="Nghe-nghiep" id="job">
+						<option value="Bác sĩ">Bác sĩ</option>
+						<option value="Kỹ sư">Kỹ sư</option>
+						<option value="Giáo viên">Giáo viên</option>
+						<option value="Khác">Khác</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Chọn sản phẩm tham gia</td>
+				<td>
+					<select name="San-pham" id="" size="4" multiple>
+						<option value="Kem đánh răng">Kem đánh răng</option>
+						<option value="Bột giặt">Bột giặt</option>
+						<option value="Dầu gội đầu">Dầu gội đầu</option>
+						<option value="Sữa tắm">Sữa tắm</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Số người dự đoán tham gia</td>
+				<td><input type="text" placeholder="Dự đoán" size="10"></td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td colspan="2" align="center"><input type="button" value="Đồng ý"></td>
+			</tr>
+			<tr>
+				<td colspan="2"></td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
